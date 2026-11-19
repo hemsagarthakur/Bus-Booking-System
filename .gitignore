@@ -1,8 +1,12 @@
-### IntelliJ IDEA ###
+### Generated Java output ###
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-.kotlin
+bin/
+*.class
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+.kotlin/
 
 ### Eclipse ###
 .apt_generated
@@ -12,9 +16,6 @@ out/
 .settings
 .springBeans
 .sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
 ### NetBeans ###
 /nbproject/private/
@@ -26,5 +27,22 @@ bin/
 ### VS Code ###
 .vscode/
 
-### Mac OS ###
+### Qodo ###
+.qodo/
+
+### macOS ###
 .DS_Store
+._*
+
+### Logs and temporary files ###
+*.log
+*.tmp
+*~
+
+### Legacy/unused local database files ###
+/safetrack.db
+/lib/sqlite-jdbc-*.jar
+
+### Downloaded or archived platform dependencies ###
+/javafx.zip
+/javafx_lib_windows/

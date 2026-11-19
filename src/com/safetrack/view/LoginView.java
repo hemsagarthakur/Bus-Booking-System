@@ -28,7 +28,7 @@ public class LoginView extends Application {
 
     @Override
     public void start(Stage stage) {
-        stage.setTitle("SafeTrack \u2013 Taxi Booking");
+        stage.setTitle("SafeTrack \u2013 Bus Booking");
         stage.setWidth(960);
         stage.setHeight(640);
         stage.setResizable(false);
